@@ -1,0 +1,240 @@
+129,130c129,130
+< Oahu_CC_152	2070	150.586
+< Oahu_CC_152	2075	150.586
+---
+> Oahu_CC_152	2070	301.172
+> Oahu_CC_152	2075	0.0
+132c132
+< Oahu_CC_152	2085	301.172
+---
+> Oahu_CC_152	2085	150.586
+165c165
+< Oahu_CentralTrackingPV_PV_02	2070	33.372387541819975
+---
+> Oahu_CentralTrackingPV_PV_02	2070	54.53768245441024
+167c167
+< Oahu_CentralTrackingPV_PV_02	2080	56.408406978712335
+---
+> Oahu_CentralTrackingPV_PV_02	2080	51.418696156016644
+170c170
+< Oahu_CentralTrackingPV_PV_02	2095	178.97817444228764
+---
+> Oahu_CentralTrackingPV_PV_02	2095	183.96788526498335
+193,194c193,194
+< Oahu_CentralTrackingPV_PV_04	2035	130.6889176747345
+< Oahu_CentralTrackingPV_PV_04	2040	0.0
+---
+> Oahu_CentralTrackingPV_PV_04	2035	123.55626734069486
+> Oahu_CentralTrackingPV_PV_04	2040	0.34458697401809246
+197c197
+< Oahu_CentralTrackingPV_PV_04	2055	0.0
+---
+> Oahu_CentralTrackingPV_PV_04	2055	0.04368198120810896
+200c200
+< Oahu_CentralTrackingPV_PV_04	2070	246.034667969
+---
+> Oahu_CentralTrackingPV_PV_04	2070	245.9909859877919
+308c308
+< Oahu_CentralTrackingPV_PV_11	2020	113.87232107981387
+---
+> Oahu_CentralTrackingPV_PV_11	2020	157.18150715103945
+316c316
+< Oahu_CentralTrackingPV_PV_11	2055	0.0
+---
+> Oahu_CentralTrackingPV_PV_11	2055	3.7444123643766583
+325c325
+< Oahu_CentralTrackingPV_PV_12	2020	189.31664921100142
+---
+> Oahu_CentralTrackingPV_PV_12	2020	142.73026357331173
+331,333c331,333
+< Oahu_CentralTrackingPV_PV_12	2045	186.36414806173897
+< Oahu_CentralTrackingPV_PV_12	2050	0.0
+< Oahu_CentralTrackingPV_PV_12	2055	60.56009205026103
+---
+> Oahu_CentralTrackingPV_PV_12	2045	194.36832241230766
+> Oahu_CentralTrackingPV_PV_12	2050	15.637552600278738
+> Oahu_CentralTrackingPV_PV_12	2055	36.918365099413606
+337c337
+< Oahu_CentralTrackingPV_PV_12	2075	7.935382807941666
+---
+> Oahu_CentralTrackingPV_PV_12	2075	0.0
+341c341
+< Oahu_CentralTrackingPV_PV_12	2095	172.5417524918489
+---
+> Oahu_CentralTrackingPV_PV_12	2095	159.55768207144703
+488c488
+< Oahu_DistPV_Oahu_DistPV_10	2055	24.03838545539089
+---
+> Oahu_DistPV_Oahu_DistPV_10	2055	113.48670581062815
+491c491
+< Oahu_DistPV_Oahu_DistPV_10	2070	43.53648351715253
+---
+> Oahu_DistPV_Oahu_DistPV_10	2070	0.0
+493c493
+< Oahu_DistPV_Oahu_DistPV_10	2080	0.0
+---
+> Oahu_DistPV_Oahu_DistPV_10	2080	36.59731974396945
+665,666c665,666
+< Oahu_DistPV_Oahu_DistPV_2	2080	42.32141655791375
+< Oahu_DistPV_Oahu_DistPV_2	2085	0.3564284432862479
+---
+> Oahu_DistPV_Oahu_DistPV_2	2080	42.6778450012
+> Oahu_DistPV_Oahu_DistPV_2	2085	0.0
+712c712
+< Oahu_DistPV_Oahu_DistPV_5	2050	27.618574250621887
+---
+> Oahu_DistPV_Oahu_DistPV_5	2050	1.9666400694720778
+731c731
+< Oahu_DistPV_Oahu_DistPV_6	2055	0.0
+---
+> Oahu_DistPV_Oahu_DistPV_6	2055	0.9406785440273175
+775c775
+< Oahu_DistPV_Oahu_DistPV_8	2095	0.0
+---
+> Oahu_DistPV_Oahu_DistPV_8	2095	1.6113103318617163
+788c788
+< Oahu_DistPV_Oahu_DistPV_9	2070	161.01952545534826
+---
+> Oahu_DistPV_Oahu_DistPV_9	2070	129.13454057523685
+790c790
+< Oahu_DistPV_Oahu_DistPV_9	2080	38.80226714765175
+---
+> Oahu_DistPV_Oahu_DistPV_9	2080	70.68725202776315
+793c793
+< Oahu_DistPV_Oahu_DistPV_9	2095	158.23628930206843
+---
+> Oahu_DistPV_Oahu_DistPV_9	2095	115.23457692793997
+806,809c806,809
+< Oahu_IC_Barge	2070	83.93196
+< Oahu_IC_Barge	2075	0.0
+< Oahu_IC_Barge	2080	0.0
+< Oahu_IC_Barge	2085	16.786392
+---
+> Oahu_IC_Barge	2070	0.0
+> Oahu_IC_Barge	2075	67.145568
+> Oahu_IC_Barge	2080	50.359176
+> Oahu_IC_Barge	2085	83.93196
+811c811
+< Oahu_IC_Barge	2095	33.572784
+---
+> Oahu_IC_Barge	2095	50.359176
+822c822
+< Oahu_IC_MCBH	2065	36.65544
+---
+> Oahu_IC_MCBH	2065	0.0
+825c825
+< Oahu_IC_MCBH	2080	27.49158
+---
+> Oahu_IC_MCBH	2080	0.0
+842,843c842,843
+< Oahu_IC_Schofield	2080	0.0
+< Oahu_IC_Schofield	2085	0.0
+---
+> Oahu_IC_Schofield	2080	27.49158
+> Oahu_IC_Schofield	2085	27.49158
+845c845
+< Oahu_IC_Schofield	2095	9.16386
+---
+> Oahu_IC_Schofield	2095	0.0
+1301c1301
+< Oahu_OnshoreWind_OnWind_401	2050	198.59280684099107
+---
+> Oahu_OnshoreWind_OnWind_401	2050	194.88254050934532
+1377c1377
+< Oahu_OnshoreWind_OnWind_405	2090	21.07392060585901
+---
+> Oahu_OnshoreWind_OnWind_405	2090	43.73844071069316
+1418c1418
+< Oahu_OnshoreWind_OnWind_408	2040	9.582166455762604
+---
+> Oahu_OnshoreWind_OnWind_408	2040	15.0
+1425c1425
+< Oahu_OnshoreWind_OnWind_408	2075	15.0
+---
+> Oahu_OnshoreWind_OnWind_408	2075	7.22457710776311
+1428c1428
+< Oahu_OnshoreWind_OnWind_408	2090	0.0
+---
+> Oahu_OnshoreWind_OnWind_408	2090	7.77542289223689
+1442c1442
+< Oahu_OnshoreWind_OnWind_409	2075	2.9207292092326202
+---
+> Oahu_OnshoreWind_OnWind_409	2075	0.0
+1445c1445
+< Oahu_OnshoreWind_OnWind_409	2090	47.07927079076738
+---
+> Oahu_OnshoreWind_OnWind_409	2090	50.0
+1475,1476c1475,1476
+< Oahu_OnshoreWind_OnWind_501	2070	239.15597813827634
+< Oahu_OnshoreWind_OnWind_501	2075	3.3440218617236512
+---
+> Oahu_OnshoreWind_OnWind_501	2070	242.5
+> Oahu_OnshoreWind_OnWind_501	2075	0.0
+1480c1480
+< Oahu_OnshoreWind_OnWind_501	2095	239.15597813827634
+---
+> Oahu_OnshoreWind_OnWind_501	2095	242.5
+1487,1488c1487,1488
+< Oahu_OnshoreWind_OnWind_502	2045	42.5
+< Oahu_OnshoreWind_OnWind_502	2050	0.0
+---
+> Oahu_OnshoreWind_OnWind_502	2045	41.19487735806645
+> Oahu_OnshoreWind_OnWind_502	2050	1.3051226419335507
+1509,1510c1509,1510
+< Oahu_OnshoreWind_OnWind_503	2070	0.0
+< Oahu_OnshoreWind_OnWind_503	2075	117.5
+---
+> Oahu_OnshoreWind_OnWind_503	2070	0.07701348416073017
+> Oahu_OnshoreWind_OnWind_503	2075	117.42298651583927
+1514c1514
+< Oahu_OnshoreWind_OnWind_503	2095	0.0
+---
+> Oahu_OnshoreWind_OnWind_503	2095	0.07701348416073017
+1574,1575c1574,1575
+< Oahu_OnshoreWind_OnWind_507	2055	10.0
+< Oahu_OnshoreWind_OnWind_507	2060	0.0
+---
+> Oahu_OnshoreWind_OnWind_507	2055	3.327743283989954
+> Oahu_OnshoreWind_OnWind_507	2060	6.672256716010046
+1612c1612
+< Oahu_OnshoreWind_OnWind_509	2075	2.5
+---
+> Oahu_OnshoreWind_OnWind_509	2075	0.0
+1615c1615
+< Oahu_OnshoreWind_OnWind_509	2090	0.0
+---
+> Oahu_OnshoreWind_OnWind_509	2090	2.5
+1912,1913c1912,1913
+< Wells_Shale_Gas	2020	254.4
+< Wells_Shale_Gas	2022	81.60000000000001
+---
+> Wells_Shale_Gas	2020	248.8
+> Wells_Shale_Gas	2022	90.80000000000001
+1916,1918c1916,1918
+< Wells_Shale_Gas	2035	44.800000000000004
+< Wells_Shale_Gas	2040	120.4
+< Wells_Shale_Gas	2045	198.0
+---
+> Wells_Shale_Gas	2035	43.2
+> Wells_Shale_Gas	2040	111.60000000000001
+> Wells_Shale_Gas	2045	207.20000000000002
+1920,1921c1920,1921
+< Wells_Shale_Gas	2055	296.8
+< Wells_Shale_Gas	2060	88.4
+---
+> Wells_Shale_Gas	2055	278.8
+> Wells_Shale_Gas	2060	76.80000000000001
+1923,1925c1923,1925
+< Wells_Shale_Gas	2070	323.6
+< Wells_Shale_Gas	2075	122.80000000000001
+< Wells_Shale_Gas	2080	256.0
+---
+> Wells_Shale_Gas	2070	348.40000000000003
+> Wells_Shale_Gas	2075	116.0
+> Wells_Shale_Gas	2080	238.4
+1927,1928c1927,1928
+< Wells_Shale_Gas	2090	141.20000000000002
+< Wells_Shale_Gas	2095	261.6
+---
+> Wells_Shale_Gas	2090	157.60000000000002
+> Wells_Shale_Gas	2095	262.40000000000003

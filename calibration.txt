@@ -1,0 +1,33 @@
+# note: commented-out modules may be added via --include-modules ... 
+# in the scenario definitions.
+
+### begin core modules ###
+switch_mod
+switch_mod.timescales
+switch_mod.financials
+switch_mod.balancing.load_zones
+switch_mod.energy_sources.properties
+#switch_mod.generators.core.build
+switch_mod.generators.core.build_original
+switch_mod.generators.core.dispatch
+#switch_mod.generators.core.dispatch_forcebuild_commitOnly
+switch_mod.reporting
+### end core modules ###
+#### necessary but not core modules but necessary #### 
+switch_mod.energy_sources.fuel_costs.markets
+switch_mod.generators.core.proj_discrete_build
+switch_mod.generators.core.commit.operate
+#switch_mod.generators.core.commit.operate_forcebuild
+switch_mod.generators.core.commit.fuel_use
+####### Suggested Modules to Run ######
+#switch_mod.hawaii.switch_patch  
+switch_mod.hawaii.switch_patch_original  
+#switch_mod.hawaii.switch_patch_BAU
+switch_mod.hawaii.kalaeloa 
+switch_mod.hawaii.demand_response_simple
+switch_mod.hawaii.smooth_dispatch
+####### Add Carbon Cap ######
+#switch_mod.policies.carbon_policies
+#switch_mod.policies.carbon_policies_BAU_dispatchcommit_commitOnly
+switch_mod.policies.carbon_policies_BAU
+switch_mod.hawaii.save_results

@@ -1,0 +1,5 @@
+set EXTRACTION_SET_FOR_GEN_RATIO[Wells_Shale_Oil] :=  Wells_Shale_Oil Wells_Offshore_Oil Wells_Conventional_Oil;
+set EXTRACTION_SET_FOR_GEN_RATIO[Wells_Offshore_Oil] :=  Wells_Shale_Oil Wells_Offshore_Oil Wells_Conventional_Oil;
+set EXTRACTION_SET_FOR_GEN_RATIO[Wells_Shale_Gas] :=  Wells_Shale_Gas Wells_Offshore_Gas Wells_Conventional_Gas;
+set EXTRACTION_SET_FOR_GEN_RATIO[Wells_Offshore_Gas] :=  Wells_Shale_Gas Wells_Offshore_Gas Wells_Conventional_Gas;
+set EXTRACTION_SET_FOR_GEN_RATIO[Mines_Coal_Surface] :=  Mines_Coal_Underground Mines_Coal_Surface;

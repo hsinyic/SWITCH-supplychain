@@ -1,6 +1,7 @@
 # note: the options specified here override defaults set in options.txt
---scenario-name base
---scenario-name no_hydrogen_no_dr --exclude-module hawaii.hydrogen --demand-response-share 0.0
---scenario-name no_dr --demand-response-share 0.0
---scenario-name dr_30 --demand-response-share 0.3
---scenario-name dr_30_future_hydrogen --demand-response-share 0.3 --inputs-dir inputs_future_hydrogen
+#—scenario-name base
+#—scenario-name no_hydrogen_no_dr --exclude-module hawaii.hydrogen --demand-response-share 0.0
+#—scenario-name no_dr --demand-response-share 0.0
+#—scenario-name dr_30 --demand-response-share 0.3
+#—scenario-name dr_30_future_hydrogen --demand-response-share 0.3 --inputs-dir inputs_future_hydrogen
+#--scenario-name both_end_bound --outputs-dir outputs/supplychain_2100_upstream58 --include-modules switch_mod.hawaii.switch_patch30 --inputs-dir inputs_2100_sc_calibrated_3_both_end_bounds --exclude-module hawaii.hydrogen
