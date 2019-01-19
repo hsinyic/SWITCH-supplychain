@@ -1,3 +1,9 @@
+
+==============================================
+= Original SWITCH model description 
+==============================================
+
+
 INTRODUCTION
 
 This repository contains files to run SWITCH for the standard SWITCH-Hawaii scenarios.
@@ -94,3 +100,10 @@ git submodule update
 The first command will attempt to merge your local changes with changes in the main repository. If there are any conflicts, you can follow the instructions given by the git command to resolve them.
 
 Alternatively, you could rename your 'main' directory to something else (like 'main_backup') and then repeat the instructions in the 'Install SWITCH-Hawaii Data and SWITCH Model Code' section.
+
+
+==============================================
+= SWITCH supply chain model description 
+==============================================
+This repository contains additional modules designed to model the effect of long lived capitals with high upfront cost. 
+
