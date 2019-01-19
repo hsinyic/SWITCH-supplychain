@@ -1,0 +1,50 @@
+  <html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+          var data = google.visualization.arrayToDataTable([
+['  ', 'Biomass','Coal','Petroleum','Natural_Gas'],
+[' 2020 ', 0, 56154.4174439999,18994.0847261979,0],
+[' 2022 ', 0, 56048.5241450713,19322.708331192,0],
+[' 2025 ', 0, 56048.5241450712,16503.9148832802,0],
+[' 2030 ', 0, 55108.3802410336,6139.4220189804,0],
+[' 2035 ', 19.7637752106493, 55793.5335886813,9605.95070973092,0],
+[' 2040 ', 17.4267516328402, 48866.7333892906,6031.80858956957,0],
+[' 2045 ', 994.822049579992, 72.88764619658,12834.7026865272,0],
+[' 2050 ', 1830.58217481301, 0,4636.94689944466,0],
+[' 2055 ', 7556.81198682319, 0,2502.54307961397,0],
+[' 2060 ', 7997.25932813713, 0,726.91529073681,0],
+[' 2065 ', 4347.6894589657, 0,641.412212609844,0],
+[' 2070 ', 13913.9148444408, 0,374.827629628184,0],
+[' 2075 ', 7757.19945821539, 0,165.865298150006,0],
+[' 2080 ', 13689.136335323, 0,66.4695603691198,0],
+[' 2085 ', 14418.3996740108, 0,93.4816317159047,0],
+[' 2090 ', 7114.43534426828, 0,0,0],
+[' 2095 ', 12919.8981456672, 0,20.4123139018873,0]
+              ]);
+          var options = {
+            // isStacked: 'true',
+            title: 'Fuel Consumption per Year. [Supply Chain] 50% emission cap delayed until 2040',
+            // curveType: 'function',
+            backgroundColor: 'none',
+            width:'620',
+            height:'400',
+            legend: {position: 'top', maxLines: 2},
+            // hAxis: {title: 'Year',  titleTextStyle: {color: 'grey'}}
+            vAxis: {title: 'Thousands MMBTU'},
+            chartArea:{ left: '12%', top: '13%', width: "70%", height: "70%" }
+            };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="curve_chart" style="width: 520px; height: 380px;border: 1px solid" ></div>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+  <html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+          var data = google.visualization.arrayToDataTable([
+[' ','Business as Usual ','50% emission cap','50% emission cap delayed until 2040','Business as Usual ','50% emission cap','50% emission cap delayed until 2040'],
+[' 2020' ,431.769607422023, 427.966838388938, 431.769607422023 ,11.44614, 10.07544 , 11.44614 ],
+[' 2022' ,469.293496173114, 471.924491220997, 469.293496173114 ,29.69013, 26.73543 , 29.69013 ],
+[' 2025' ,445.148930452882, 452.68456002248, 445.148930452882 ,57.00818, 49.05503 , 57.00818 ],
+[' 2030' ,352.181638950061, 360.931202266926, 352.181638950061 ,79.29153, 63.06213 , 79.29153 ],
+[' 2035' ,476.396746761275, 533.398424910508, 476.396746761275 ,106.54653, 80.05953 , 106.54653 ],
+[' 2040' ,440.223198453617, 508.008930820897, 440.223198453617 ,127.25868, 90.45933 , 127.25868 ],
+[' 2045' ,558.203532564864, 637.336446550687, 645.203392027977 ,149.06023, 101.12263 , 131.35449 ],
+[' 2050' ,581.03484946011, 687.458763730047, 706.715319263501 ,170.12283, 106.74338 , 133.448985 ],
+[' 2055' ,687.806601701288, 754.957610856146, 788.765669852305 ,184.93268, 111.94373 , 136.23604 ],
+[' 2060' ,655.572305574134, 727.018753253488, 764.267300459633 ,198.69528, 116.56779 , 138.73763 ],
+[' 2065' ,545.84968610119, 606.440859657817, 715.287668585864 ,210.28473, 119.18635 , 140.04231 ],
+[' 2070' ,679.402003648808, 772.274871203414, 922.824183609776 ,224.55528, 124.59625 , 143.432735 ],
+[' 2075' ,622.775648562486, 676.778116317093, 810.592221640374 ,238.07518, 128.0825 , 144.9333 ],
+[' 2080' ,689.638927128616, 775.633590731913, 1425.6029375684 ,251.80693, 132.94752 , 145.2967185 ],
+[' 2085' ,680.082448611177, 746.101474006235, 1491.57545604122 ,265.34268, 138.31107 , 145.3847795 ],
+[' 2090' ,628.612835865791, 683.379602606671, 1101.75494843017 ,277.32078, 141.050615 , 145.412687 ],
+[' 2095' ,697.926572249253, 780.563779393964, 1468.26928979484 ,290.97128, 145.48551 , 145.45868325 ]
+              ]);
+
+          var options = {
+            // isStacked: 'true',
+            title: 'Cumulative Emission and Total Electricity Cost ',
+            // curveType: 'function',
+            backgroundColor: 'none',
+            width:'900',
+            height:'620',
+            legend: {position: 'top', maxLines:3, alignment: 'left', textStyle:{fontSize:13}},
+            series: {
+              0: {type: "bars", targetAxisIndex: 0},
+              1: {type: "bars", targetAxisIndex: 0},
+              2: {type: "bars", targetAxisIndex: 0},
+              3: {type: "lines", targetAxisIndex: 1},
+              4: {type: "lines", targetAxisIndex: 1},
+              5: {type: "lines", targetAxisIndex: 1},
+            },
+            vAxes: {
+              // Adds titles to each axis.
+              0: {title: 'Total Electricity Cost ($million)', maxValue: 1750},
+              1: {title: 'Emission (Million tonnes of CO2)', maxValue: 350}
+            },
+            vAxis: {
+              viewWindowMode: 'pretty',
+              gridlines: {
+                count: 8
+              }
+              },
+            chartArea:{ left: '8%', right: '8%', top: '12%', width:'75%',height:'60%' }
+            // hAxis: {title: 'Year',  titleTextStyle: {color: 'grey'}}
+            };
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="curve_chart" style="width: 900px; height: 500px;border: 1px solid"></div>
+  </body>
+</html>

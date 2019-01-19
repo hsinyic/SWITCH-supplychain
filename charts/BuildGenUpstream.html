@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+          function drawChart() {
+          var data = google.visualization.arrayToDataTable([
+[' ','Midstream-Coal','Midstream-OG'],
+[' 2020',986,810],
+[' 2025',0,411],
+[' 2030',68,0],
+[' 2035',170,0],
+[' 2040',0,0],
+[' 2045',0,0],
+[' 2050',0,0],
+[' 2055',0,0],
+[' 2060',0,0],
+[' 2065',0,361],
+[' 2070',0,0],
+[' 2075',0,0],
+[' 2080',0,208],
+[' 2085',0,0],
+[' 2090',0,0],
+[' 2095',0,0]
+                           ]);
+          var options = {
+            isStacked: 'true',
+            // isStacked: 'relative',
+            // scaleType: 'mirrorLog'
+            title: 'Capacity Built, 2020-2095 -- Midstream. \n[SUPPLY CHAIN] 50% emission cap delayed until 2040',
+            backgroundColor: 'none',
+            width:'800',
+            height:'500',
+            legend: {position: 'bottom', maxLines: 4},
+            areaOpacity: '1',
+            bar: { groupWidth: '75%' },
+            // series: [
+            // {color: 'black', visibleInLegend: false}, {}, {},
+            // {color: 'red', visibleInLegend: false}
+            // ]
+            // hAxis: {title: 'Year',  titleTextStyle: {color: 'grey'}},
+            vAxis: {
+              title: 'MW capacity built', 
+              maxValue: 2000,
+              // scaleType: 'mirrorLog',
+              // ticks: [ 250 ,500, 750 , 1000 , 1250, 1500 ,1750, 2000, 2250 ,2500]
+              // ticks: [0,75, 85, 95, 110, 120, 130, 140, 150, 160, 170, 180, 185, 190, 195, 200,250]
+              // ticks: [1,1.17609125905568,1.30102999566398,1.8750612633917,1.92941892571429,1.97772360528885,2.04139268515822,2.07918124604762,2.11394335230684,2.14612803567824,2.17609125905568,2.20411998265592,2.23044892137827,2.25527250510331,2.26717172840301,2.27875360095283,2.29003461136252,2.30102999566398,2.32221929473392]
+            },
+            colors: ["#171717","#109618","#990099","#0099c6"], 
+            chartArea:{ left: '8%', top: '14%', width: "70%", height: "70%" }
+            };
+          var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+          chart.draw(data, options);
+        }
+    </script>
+  </head>
+
+  <body>
+    <!--Div that will hold the pie chart-->
+    <div id="chart_div"style="width: 650px; height: 500px;border: 1px solid"></div>
+  </body>
+</html>
